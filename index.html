@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myCal-Proj</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>My Calculation Challenge</h2>
+
+        <section>
+    
+            <div class="main">
+    
+            <input class="write-up" id="showTotal">
+        
+            <p>
+                <button class="cal-btn" onclick="getAllValues(1)">1</button>
+        
+                <button class="cal-btn" onclick="getAllValues(2)">2</button>
+        
+                <button class="cal-btn" onclick="getAllValues(3)">3</button>
+        
+                <button class="cal-btn cal-orange" onclick="getAllValues('+')">+</button>
+            </p>
+        
+            <p>
+                <button class="cal-btn" onclick="getAllValues(4)">4</button>
+        
+                <button class="cal-btn" onclick="getAllValues(5)">5</button>
+        
+                <button class="cal-btn" onclick="getAllValues(6)">6</button>
+        
+                <button class="cal-btn cal-orange" onclick="getAllValues('-')">-</button>
+            </p>
+        
+            <p>
+                <button class="cal-btn" onclick="getAllValues(7)">7</button>
+        
+                <button class="cal-btn" onclick="getAllValues(8)">8</button>
+        
+                <button class="cal-btn" onclick="getAllValues(9)">9</button>
+        
+                <button class="cal-btn cal-orange" onclick="getAllValues('*')">*</button>
+            </p>
+        
+            <p>
+                <button class="cal-btn" onclick="getAllValues(0)">0</button>
+        
+                <button class="cal-btn" onclick="getAllValues('.')">.</button>
+        
+                <button class="cal-btn cal-orange cal-equal"  onclick="computeValues()">=</button>
+        
+                <button class="cal-btn cal-orange" onclick="getAllValues('/')">/</button>
+            </p>
+        
+        
+            <button class="cal-clear" onclick="clearValues()">Clear</button>
+    
+    
+        </section>
+    
+        </div>
+
+        <script src="script.js"></script>
+
+
+</body>
+</html>
